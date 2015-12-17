@@ -11,3 +11,5 @@ script:
   - go build ./lib/
   - cd ./lib/ && go test -v -host localhost -loaddata
   - go install
+  
+  build_image: drydock/u12golpls:tip
