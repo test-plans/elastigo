@@ -15,5 +15,6 @@ script:
   - go install
   
 #build_image: drydock/u14golpls:tip
+#build_image: drydock/u14golall:tip
 build_image: drydock/u14golall:tip
 
